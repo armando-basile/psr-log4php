@@ -1,0 +1,43 @@
+{
+  "name": "abacaphiliac/psr-log4php",
+  "description": "A PSR-3-compliant log4php-wrapper.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Timothy Younger",
+      "email": "abacaphiliac@gmail.com"
+    }
+  ],
+  "keywords": [
+    "psr",
+    "log4php",
+    "log",
+    "logger",
+    "logging",
+    "apache",
+    "psr-3",
+    "psr3",
+    "fig"
+  ],
+  "require": {
+    "php": ">=5.3",
+    "apache/log4php": "^2.0",
+    "psr/log": "^1.0"
+  },
+  "require-dev": {
+    "jakub-onderka/php-parallel-lint": "^0.9",
+    "phing/phing": "^2.9",
+    "phpunit/phpunit": "^5.4|^4.8",
+    "squizlabs/php_codesniffer": "^2.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Abacaphiliac\\PsrLog4Php\\": "src/PsrLog4Php"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AbacaphiliacTest\\PsrLog4Php\\": "tests/PsrLog4Php"
+    }
+  }
+}
